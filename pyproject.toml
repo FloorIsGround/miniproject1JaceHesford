@@ -1,7 +1,7 @@
 [project]
 name = "miniproject1jacehesford"
 version = "0.1.0"
-description = "Add your description here"
+description = "A project to take api finance data and create graphs in the format of pngs."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
