@@ -1,3 +1,7 @@
+# INF601 - Advanced Programming in Python
+# Jace Hesford
+# Mini Project 1
+
 # The Project
 ## API Finance Data -> Graph PNGs
 The main goal of the project is to use NumPy and Matplotlib in order to create 5 graphs of stock ticker closing prices across 10 trading days, and output it as PNG graph files.
