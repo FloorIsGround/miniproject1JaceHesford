@@ -40,7 +40,9 @@ for stock in mystocks:
     hl.sort()
 
     plt.plot(mystock)
+    plt.title(stock)
     plt.axis((0, 10, hl[0] - 10, hl[-1] + 10))
     plt.xlabel('Trading Days Ago')
     plt.ylabel('Closing Price')
+    plt.savefig(f'charts/{stock}.png')
     plt.show()
