@@ -50,7 +50,7 @@ for stock in mystocks:
     plt.xlabel('Trading Days Ago')
     plt.ylabel('Closing Price')
     plt.savefig(f'charts/{stock}.png')
-    plt.close()
-    print(f"Saving {stock}.png to /charts")
+    plt.close() # close the plot figure to prevent figures from overwriting one another continuously
+    print(f"Saved {stock}.png to /charts")
 
 print("Program is finished")
