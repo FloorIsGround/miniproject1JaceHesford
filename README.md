@@ -1,6 +1,6 @@
-# INF601 - Advanced Programming in Python
-# Jace Hesford
-# Mini Project 1
+### INF601 - Advanced Programming in Python
+### Jace Hesford
+### Mini Project 1
 
 # API Finance Data -> Graph PNGs
 ## Description
