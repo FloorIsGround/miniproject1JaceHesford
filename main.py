@@ -53,3 +53,5 @@ for stock in mystocks:
     plt.savefig(f'charts/{stock}.png')
     plt.close()
     print(f"Saving {stock}.png to /charts")
+
+print("Program is finished")
