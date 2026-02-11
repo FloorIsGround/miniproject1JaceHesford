@@ -51,4 +51,5 @@ for stock in mystocks:
     plt.xlabel('Trading Days Ago')
     plt.ylabel('Closing Price')
     plt.savefig(f'charts/{stock}.png')
-    plt.show()
+    plt.close()
+    print(f"Saving {stock}.png to /charts")
